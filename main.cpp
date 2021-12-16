@@ -14,7 +14,7 @@ int main(){
     margin_percent=percent;
     required_percent=percent;
     //Calculate margin of one subject.
-    /*while(margin_percent>=75.0){
+    while(margin_percent>=75.0){
         margin_percent=(1-(leave+i)/(total+i))*100;
         if(margin_percent>=75){
         //cout<<"margin_percent:\t"<<margin_percent<<endl<<endl;
@@ -23,7 +23,7 @@ int main(){
     }
     if(count>-1){
         cout<<"Margin hours:\t"<<count<<endl;
-    }*/
+    }
     //Calculate required class for 75 attendance
     count=0;  i=1;
     while(required_percent<75.0){
